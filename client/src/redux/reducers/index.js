@@ -1,6 +1,7 @@
 import { combineReducers } from "redux";
 
 // START IMPORT REDUCERS
+import Golf AssociationReducer from "./Golf AssociationReducer";
 import HomeReducer from "./HomeReducer";
 
 // END IMPORT REDUCERS
@@ -21,6 +22,7 @@ const rootReducer = combineReducers({
   UserListReducer,
 
   // START COMBINE REDUCERS
+	Golf AssociationReducer,
 	HomeReducer,
  // END COMBINE REDUCERS
 

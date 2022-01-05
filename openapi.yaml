@@ -205,7 +205,7 @@ paths:
       tags:
         - User
       parameters:
-        - name: id
+        - name: api_key
           x-skaffolder-type: String
           in: path
           description: https://www.golfgenius.com/api_v2/api_key/events?page&#x3D;page&amp;season&#x3D;season_id&amp;category&#x3D;category_id&amp;archived&#x3D;archived
@@ -309,6 +309,16 @@ components:
     - x-skaffolder-id: 61d4fa4c7a739847d5d03a48
       x-skaffolder-name: GOLFAPI_db
   x-skaffolder-page:
+    - x-skaffolder-id: 61d500a47a739847d5d03ade
+      x-skaffolder-name: Golf Association
+      x-skaffolder-url: dave44idev
+      x-skaffolder-template: 
+      x-skaffolder-resource: 
+      x-skaffolder-services:
+        - 61d4fa4d7a739847d5d03a56
+      x-skaffolder-nesteds: 
+      x-skaffolder-links: 
+      x-skaffolder-roles: []
     - x-skaffolder-id: 61d4fa4c7a739847d5d03a50
       x-skaffolder-name: Home
       x-skaffolder-url: /home

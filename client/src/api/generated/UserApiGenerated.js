@@ -60,7 +60,7 @@ class UserApiGenerated {
   /**
   * UserService.get
   *   @description CRUD ACTION get
-  *   @param String id https://www.golfgenius.com/api_v2/api_key/events?page&#x3D;page&amp;season&#x3D;season_id&amp;category&#x3D;category_id&amp;archived&#x3D;archived
+  *   @param String api_key https://www.golfgenius.com/api_v2/api_key/events?page&#x3D;page&amp;season&#x3D;season_id&amp;category&#x3D;category_id&amp;archived&#x3D;archived
   *
   */
   static getOneUser(id) {

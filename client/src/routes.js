@@ -9,6 +9,7 @@ import Paper from "@material-ui/core/Paper";
 
 /* START MY VIEWS IMPORT */
 
+import Golf Association from "./pages/Golf Association";
 
 /* END MY VIEWS IMPORT */
 
@@ -38,6 +39,7 @@ class Routes extends Component {
 
               {/* START MY VIEWS */}
 
+              <PrivateRoute exact path="dave44idev" component={ Golf Association }  />
 
              {/* END MY VIEWS */}
 
